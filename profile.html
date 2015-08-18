@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!--My Portfolio Picture-->
+        <div class="col-md-6">
+          <img class="title-logo" id="mypic" width="150" height="150" src="images/profilepic.jpg" srcset="images/profilepiccomp2.jpg 500w, images/profilepiccomp1.jpg 1000w, images/profilepic.jpg 2000w" sizes="100vw" alt="My Pic">
+        </div>
+        <!--Name Header-->
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super">Ashley Davison</h1>
+          <h4>Front-End Developer</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <!-- Nav Bar -->
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills nav-justified">
+            <li role="presentation" class="active"><a href="#">HOME</a></li>
+            <!-- TO DO: Will create About, Projects, and Contact pages at a later date -->
+            <li role="presentation"><a href="#">ABOUT</a></li>
+            <li role="presentation"><a href="#">PROJECTS</a></li>
+            <li role="presentation"><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--Main Page Image-->
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" id="beach" src="images/beach000.jpg" srcset="images/beach000comp2.jpg 500w, images/beach000comp1.jpg 1000w, images/beach000.jpg 2000w" width="2000" sizes="100vw" alt="Beach picture">
+        </div>
+      </div>
+      <!--Title for Projects Row-->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <!--Projects Row-->
+      <div class="row text-center">
+        <!--Project 1-->
+        <div class="col-md-4">
+          <figure>
+            <img class="img-responsive project" src="images/beach1.jpg" srcset="images/beach1comp2.jpg 500w, images/beach1comp1.jpg 1000w, images/beach1.jpg 2000w" width="1000" sizes="100vw" data-toggle="modal" data-target="#myModal1" alt="Cape Cod"/>
+            <figcaption class="caption">Cape Cod</figcaption>
+          </figure>
+          <h3 class="text-uppercase">Project 1</h3>
+          <!-- TO DO: Will link to Git-Hub projects at a later date -->
+          <p><a href="http://github.com">Git-Hub Link To Go Here</a></p>
+        </div>
+        <!--Project 2-->
+        <div class="col-md-4">
+          <figure>
+            <img class="img-responsive project" src="images/beach2.jpg" srcset="images/beach2comp2.jpg 500w, images/beach2comp1.jpg 1000w, images/beach2.jpg 2000w" width="1000" sizes="100vw" data-toggle="modal" data-target="#myModal2" alt="Saint John">
+            <figcaption class="caption">St John</figcaption>
+          </figure>
+          <h3 class="text-uppercase">Project 2</h3>
+          <!-- TO DO: Will link to Git-Hub projects at a later date -->
+          <p><a href="http://github.com">Git-Hub Link To Go Here</a></p>
+        </div>
+        <!--Project 3-->
+        <div class="col-md-4">
+          <figure >
+            <img class="img-responsive project" src="images/beach3.jpg" srcset="images/beach3comp2.jpg 500w, images/beach3comp1.jpg 1500w, images/beach3.jpg 2000w" width="1000" sizes="100vw" data-toggle="modal" data-target="#myModal3" alt="Mountain Lake">
+            <figcaption class="caption">Mountain Lake</figcaption>
+          </figure>
+          <h3 class="text-uppercase">Project 3</h3>
+          <!-- TO DO: Will link to Git-Hub projects at a later date -->
+          <p><a href="http://github.com">Git-Hub Link To Go Here</a></p>
+        </div>
+      </div>
+    </div>
+        <!-- Modal 1-->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Cape Cod</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/beach1.jpg" alt="Cape Cod">
+            Coastguard Beach, National Seashore, Cape Cod, Massachusetts
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!--Modal 1 End-->
+        <!-- Modal 2-->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">St John</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/beach2.jpg" alt="Saint John">
+            Maho Bay, St. John, US Virgin Islands
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!--Modal 2 End-->
+        <!-- Modal 3-->
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModal3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Mountain Lake</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/beach3.jpg" alt="Mountain Lake">
+            Mountain Lake, Adirondack State Park, New York
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- Modal 3 End-->
+        <!-- Contact Icons -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 iconcol">
+          <div class="iconcol text-center">
+            <i class="fa fa-phone fa-lg icon iconleft" data-toggle="modal" data-target="#phoneModal"></i>
+            <i class="fa fa-envelope fa-lg icon" data-toggle="modal" data-target="#emailModal"></i>
+            <a href="https://www.facebook.com/ashley.davison.714">
+              <i class="fa fa-facebook fa-lg icon"></i>
+            </a>
+            <a href="https://instagram.com/ashdav36/">
+              <i class="fa fa-instagram fa-lg icon"></i>
+            </a>
+            <a href="https://plus.google.com/107661486418006426196/posts/p/pub">
+              <i class="fa fa-google-plus fa-lg icon"></i>
+            </a>
+            <a href="https://github.com/AshleyED">
+              <i class="fa fa-github fa-lg icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Phone Modal -->
+    <div class="modal fade" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="phoneModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Call me: 000-000-0000</h4>
+          </div>
+          <div class="modal-body contactmodal">
+            <img class="img-responsive" src="images/beachwave.jpg" srcset="images/beachwavecomp2.jpg 500w, images/beachwavecomp1.jpg 1000w, images/beachwave.jpg 2000w" width="1000" sizes="100vw" alt="Beach waves">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Email Modal -->
+    <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Email me: <a href="mailto:ashley.e.davison@gmail.com">ashley.e.davison@gmail.com</a></h4>
+          </div>
+          <div class="modal-body contactmodal">
+            <img class="img-responsive" src="images/beachcloud.jpg" srcset="images/beachcloudcomp2.jpg 500w, images/beachcloudcomp1.jpg 1000w, images/beachcloud.jpg 2000w" width="1000" sizes="100vw" alt="Beach cloud">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- NOTES/SOURCES: Framework used- Bootstrap (getbootstrap.com)
+                    Font used- Google Fonts: Raleway (https://www.google.com/fonts/specimen/Raleway)
+                    Icons used- Font Awesome (http://fortawesome.github.io/Font-Awesome/)
+                    No outside sources used for photos -->

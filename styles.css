@@ -1,0 +1,68 @@
+/* Font Style */
+body {
+  color: grey;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Main Title Style */
+.title-super {
+  font-size: 4.5em;
+  font-weight: lighter;
+}
+
+/* Nav Bar */
+.nav>li>a:hover,
+.nav>li>a:focus,
+.nav>li>a:active,
+.nav>li>a {
+  color: grey !important;
+  background-color: #fff !important;
+}
+
+/* Image Styles */
+.img-responsive {
+  box-shadow: 5px 5px 2.5px grey;
+}
+
+.img {
+  width: 100vw;
+}
+
+/* Project Row Styles */
+.caption {
+  text-align: right;
+}
+
+.project {
+  cursor: pointer;
+}
+
+/* Profile Picture Style */
+#mypic {
+  border-radius: 50%;
+  box-shadow: 5px 5px 2.5px grey;
+}
+
+/* Middle Picture Alignment */
+#beach {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5%;
+}
+
+/* Icons */
+.icon {
+  margin-top: 2.5%;
+  padding: 2.5%;
+  cursor: pointer;
+}
+
+.contactmodal {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+/* Links */
+a {
+  color: grey;
+}
